@@ -3,7 +3,7 @@ cask "ralph" do
   name "ralph"
   desc "Autonomous AI development loop orchestration system"
   homepage "https://github.com/arvesolland/ralph"
-  version "1.2.2"
+  version "1.2.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "ralph" do
   on_macos do
     on_intel do
       url "https://github.com/arvesolland/ralph/releases/download/v#{version}/ralph_#{version}_darwin_amd64.tar.gz"
-      sha256 "0049f48c8535f5da01d80142731f524e7cf2d68169d470e592ab074379db6ac9"
+      sha256 "9381fca50a56d0f3778796055e0293fccde981dc6eb3855f1d13d2e2eb814b23"
     end
     on_arm do
       url "https://github.com/arvesolland/ralph/releases/download/v#{version}/ralph_#{version}_darwin_arm64.tar.gz"
-      sha256 "42a1a650aacf428b848caba68c80303474ffde3f8ff87823dd6c9b94b79973ce"
+      sha256 "f3500ee8f296f465e7d54e17dcefcdbd4b83e831ec815c60e31725a3b350548b"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/arvesolland/ralph/releases/download/v#{version}/ralph_#{version}_linux_amd64.tar.gz"
-      sha256 "344045e237dc1bf00bdeec0beec2756939928686c0f497dbe30f01706046e677"
+      sha256 "77f53dd3e8756b9a4142a0a83072fc07b9559ff34f1f84b8db07c9a1159095ed"
     end
     on_arm do
       url "https://github.com/arvesolland/ralph/releases/download/v#{version}/ralph_#{version}_linux_arm64.tar.gz"
-      sha256 "5263c88ff2737841bd6b8e06e12f2ce1b18ff2eb94a4723da1ac6a10c228e662"
+      sha256 "3e1d62257e16c897670260014776014d6db0c97883da7ffa83146264c508ab6f"
     end
   end
 
